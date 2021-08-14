@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle Quiz</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <div class="container-quiz">
+      <div class="btn-back-div">
+        <a class="btn-back" href="../index.html">
+          <strong><</strong> Go Back
+        </a>
+      </div>
+      <h1>Triangle Quiz</h1>
+      <form class="quiz-form">
+        <div class="question-container">
+          <p>
+            <strong> 1. </strong> What is the third angle for Triangle where
+            angle1 = 45° and angle2 = 46°?
+          </p>
+          <label for="radio1"
+            ><input
+              id="radio1"
+              type="radio"
+              name="question1"
+              value="45°"
+              required
+            />45°</label
+          >
+          <label for="radio2"
+            ><input
+              type="radio"
+              id="radio2"
+              name="question1"
+              value="90°"
+            />90°</label
+          >
+          <label for="radio3"
+            ><input
+              type="radio"
+              id="radio3"
+              name="question1"
+              value="89°"
+            />89°</label
+          >
+        </div>
+        <div class="question-container">
+          <p>
+            <strong> 2. </strong> If a triangle has an angle of 90°, what it is
+            called?
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="obtuse"
+              required
+            />obtuse</label
+          >
+          <label
+            ><input type="radio" name="question2" value="acute" />acute</label
+          >
+          <label
+            ><input type="radio" name="question2" value="right angled" />right
+            angled</label
+          >
+        </div>
+        <div class="question-container">
+          <p>
+            <strong> 3. </strong> If a triangle has angles 135°, 15°, 30°. Is it
+            an obtuse triangle?
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="yes"
+              required
+            />yes</label
+          >
+          <label><input type="radio" name="question3" value="no" />no</label>
+          <label
+            ><input type="radio" name="question3" value="maybe" />maybe</label
+          >
+        </div>
+        <div class="question-container">
+          <p>
+            <strong> 4. </strong> If a triangle has 2 sides with equal lengths
+            and 75° angle between them. What is the type of triangle?
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              value="equilateral"
+              required
+            />equilateral</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              value="isosceles"
+            />isosceles</label
+          >
+          <label
+            ><input type="radio" name="question4" value="right angled" />right
+            angled</label
+          >
+        </div>
+        <div class="question-container">
+          <p>
+            <strong> 5. </strong> The perimeter of an equilateral triangle is
+            15cm. What is the length of one side?
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="question5"
+              value="15cm"
+              required
+            />15cm</label
+          >
+          <label
+            ><input type="radio" name="question5" value="45cm" />45cm</label
+          >
+          <label><input type="radio" name="question5" value="5cm" />5cm</label>
+        </div>
+        <div class="question-container">
+          <p>
+            <strong> 6. </strong> If a triangle has 2 angles of 75°. What is the
+            measure of third angle in degree?
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="question6"
+              value="25"
+              required
+            />25</label
+          >
+          <label><input type="radio" name="question6" value="30" />30</label>
+          <label><input type="radio" name="question6" value="15" />15</label>
+        </div>
+      </form>
+      <button id="btn-submit-quiz">Submit Answers</button>
+      <div id="output"></div>
+    </div>
+
+    <footer id="footer">
+      <ul class="footer-list">
+        <li class="list-item">
+          <a
+            target="_blank"
+            href="mailto:leader.vishalkumar@gmail.com"
+            class="footer-links"
+          >
+            <i class="fa fa-envelope" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="list-item">
+          <a target="_blank" href="https://github.com/VLeads">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a target="_blank" href="https://www.linkedin.com/in/vishalkumar28/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a target="_blank" href="https://twitter.com/Vishalk01234">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a target="_blank" href="https://vishalkumar.netlify.app/">
+            <i class="fas fa-briefcase"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./quiz.js"></script>
+  </body>
+</html>

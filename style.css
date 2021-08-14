@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: large;
+
+}
+
+body {
+  /* background-image: url("background.png") ; */
+  background: url("background.png") no-repeat center center fixed;
+  /* background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* background-size: auto; */
+  background-size: 100% 100%;
+  margin: 0;
+  /* height: 92vh; */
+}
+
+.container {
+  display: block;
+  align-items: center;
+  width: 35vw;
+  margin: auto;
+  margin-top: 12rem;
+}
+
+a{
+  text-decoration: none;
+}
+h1{
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  font-size:x-large;
+}
+h2{
+  font-size: x-large;
+  text-align: center;
+}
+
+.hd-4 {
+  margin-top: 30px;
+}
+
+.options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: 1px solid red;
+  display: flex;
+  height: 120px;
+  width: 120px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Angle of Tri */
+/* .poster {
+  display: inline-block;
+  background-color: #f7f7f7;
+  margin: 30px;
+} */
+.btn-back-div{
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  align-items: center;
+
+}
+.btn-back {
+  
+  background-color: #be1afa;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+  font-weight: 800;
+  
+ 
+}
+.btn-back:hover {
+  background-color: #ee2dc4;
+}
+
+#btn-submit {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  height: 40px;
+  width: 95px;
+  border-radius: 40%;
+  border-style: none;
+  background-color: #5f5fdc;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.btn-submit:hover {
+  background-color: #4242e0;
+}
+
+.input {
+  /* display: flex; */
+  height: 40px;
+  width: 100px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.header {
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.angle-input {
+  display: flex;
+  flex-direction: row;
+}
+
+#output {
+  background-image: url("./sea.jpg");
+  /* background-image: url("background.png"); */
+  opacity: 85%;
+  /* color: white; */
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 5rem;
+  text-align: center;
+  border: 1px solid blue;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  width: 60vw;
+ 
+}
+
+.container-quiz{
+  /* align-items: center; */
+  display: block;
+  margin: auto;
+  margin-bottom: 5rem;
+  width: 42vw;
+  margin-top: 8rem;
+}
+
+.question-container{
+  background-color: paleturquoise;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  
+}
+  .question-container > p{
+    margin-bottom: 1rem;
+    letter-spacing: 0.8px;
+  } 
+
+.question-container > label {
+  margin: 1rem;
+}
+
+#btn-submit-quiz{
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  height: 45px;
+  width: 98px;
+  border-style: none;
+  background-color: #5f5fdc;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  
+}
+
+
+#data-field{
+  display: flex;
+  justify-content: center;
+}
+
+#data-field > label{
+  margin: 15px
+}
+
+#footer{
+
+  width: 100%;
+    /* position: absolute; */
+    position: fixed;
+    bottom: 0;
+  background-color: rgb(48, 59, 208, 0.2);
+  margin: 0;
+  padding: 0
+}
+
+.footer-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.footer-list > .list-item{
+  list-style: none;
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+
+}
+
+.fab, .fa, .fas{
+  color: black
+}
+
+
+/* for mobile */
+@media screen and (max-width: 800px) {
+  .options {
+    flex-direction: column;
+  }
+  .angle-input {
+
+    flex-direction: column;
+  }
+}
